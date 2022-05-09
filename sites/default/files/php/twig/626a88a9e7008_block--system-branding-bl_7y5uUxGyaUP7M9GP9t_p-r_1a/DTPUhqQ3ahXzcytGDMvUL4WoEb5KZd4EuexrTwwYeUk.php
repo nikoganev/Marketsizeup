@@ -62,7 +62,7 @@ class __TwigTemplate_f8ea6b400ed8413c3939e877a878d96e127ff82b64c46404fec0ecb0616
             // line 20
             echo $this->extensions['Drupal\Core\Template\TwigExtension']->escapeFilter($this->env, $this->sandbox->ensureToStringAllowed(($context["site_logo"] ?? null), 20, $this->source), "html", null, true);
             echo "\" alt=\"";
-            echo $this->extensions['Drupal\Core\Template\TwigExtension']->renderVar(t("home"));
+            echo $this->extensions['Drupal\Core\Template\TwigExtension']->renderVar(t("Home"));
             echo "\" />
     </a>
   ";
